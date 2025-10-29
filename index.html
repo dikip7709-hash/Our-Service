@@ -132,7 +132,7 @@ allowfullscreen>
           <li><img src="Group.svg" alt=""><p>Premium Visual Asset</p></li>
           <li><img src="Group.svg" alt=""><p>1 - 2 Days</p></li>
         </ul>
-        <div onclick="scrollToForm()" class="btn-started">Get Started</div>
+        <div onclick="scrollToForm1()" class="btn-started">Get Started</div>
       </div>
       <div class="scroll-animate Price2">
         <div class="text-price2">
@@ -147,7 +147,7 @@ allowfullscreen>
           <li><img src="Group.svg" alt=""><p>Premium Visual Asset</p></li>
           <li><img src="Group.svg" alt=""><p>2 - 3 Days</p></li>
         </ul>
-        <div onclick="scrollToForm()" class="btn-started2">Get Started</div>
+        <div onclick="scrollToForm1()" class="btn-started2">Get Started</div>
       </div>
       <div class="scroll-animate Price3">
         <div class="text-price3">
@@ -162,7 +162,7 @@ allowfullscreen>
           <li><img src="Group.svg" alt=""><p>Premium Visual Asset</p></li>
           <li><img src="Group.svg" alt=""><p>3 - 4 Days</p></li>
         </ul>
-        <div onclick="scrollToForm()" class="btn-started3">Get Started</div>
+        <div onclick="scrollToForm1()" class="btn-started3">Get Started</div>
       </div>
       <div class="scroll-animate PerslideBtn">
         <div class="text-perslide">
@@ -177,7 +177,7 @@ allowfullscreen>
           <li><img src="Group.svg" alt=""><p>Premium Visual Asset</p></li>
           <li><img src="Group.svg" alt=""><p>??? Days</p></li>
         </ul>
-        <div onclick="scrollToForm()" class="btn-startedper">Get Started</div>
+        <div onclick="scrollToForm1()" class="btn-startedper">Get Started</div>
       </div>
       </div>
     </div>
@@ -329,6 +329,10 @@ buttons.forEach((btn, index) => {
       else{
         content.style.height = "0vh"
       }
+      const form1 = document.getElementById("formPage");
+      form1.scrollIntoView({behavior: "smooth"})
+    }
+    function scrollToForm1(){
       const form1 = document.getElementById("formPage");
       form1.scrollIntoView({behavior: "smooth"})
     }
