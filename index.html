@@ -52,7 +52,7 @@
       <h1><span style="color: #00BECC;">TRANSFORM</span> YOUR PRESENT</h1>
       <p>we turn presentations into powerful storytelling experiences.</p>
       </div>
-      <div class="btn-container"><div onclick="goToStore()" class="scroll-animate btn-template">Template</div><div onclick="scrollToService()" class="scroll-animate btn-service">Service</div></div>
+      <div class="btn-container"><div onclick="goToStore()" class="scroll-animate btn-template">Template</div><div onclick="scrollToService1()" class="scroll-animate btn-service">Service</div></div>
     </div>
     <div class="scroll-animate image-project">
       <img src="Screenshot 2025-10-13 144809.png">
@@ -345,6 +345,11 @@ buttons.forEach((btn, index) => {
       else{
         content.style.height = "0vh"
       }
+      const section = document.getElementById("servicePage");
+    section.scrollIntoView({ behavior: "smooth" })
+    }
+
+        function scrollToService1(){
       const section = document.getElementById("servicePage");
     section.scrollIntoView({ behavior: "smooth" })
     } 
